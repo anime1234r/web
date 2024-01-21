@@ -1,31 +1,24 @@
-const OtakuPlayhubApp = {
-    showWelcomeMessage: function() {
-        const usernameElement = document.getElementById('username');
-        const savedUsername = localStorage.getItem('username');
+// Puedes empezar con algo básico, como cambiar el color de fondo al hacer clic en un botón.
+document.getElementById('botonCambiarColor').addEventListener('click', function() {
+    document.body.style.backgroundColor = 'pink';
+});
+// En JavaScript (script.js)
 
-        if (savedUsername) {
-            usernameElement.textContent = `¡Hola, ${savedUsername}!`;
-        } else {
-            const username = prompt('¡Hola! Ingresa tu nombre:');
-            if (username) {
-                localStorage.setItem('username', username);
-                usernameElement.textContent = `¡Hola, ${username}!`;
-            }
-        }
-    },
-
-    initialize: function() {
-        OtakuPlayhubApp.showWelcomeMessage();
-    },
-};
-
-const hasShownWelcomeMessage = localStorage.getItem('hasShownWelcomeMessage');
-
-if (!hasShownWelcomeMessage) {
-    document.addEventListener('DOMContentLoaded', function() {
-        OtakuPlayhubApp.initialize();
-        localStorage.setItem('hasShownWelcomeMessage', 'true');
-    });
-} else {
-    document.addEventListener('DOMContentLoaded', OtakuPlayhubApp.initialize);
+function abrirLightbox(imagen) {
+    // Lógica para mostrar el lightbox con la imagen seleccionada
+    // Puedes utilizar bibliotecas como Lightbox2 para esto.
 }
+
+function cambiarTema() {
+    // Lógica para cambiar los estilos y colores de la página
+    // según el tema seleccionado
+}
+
+function enviarComentario() {
+    // Lógica para procesar y mostrar comentarios
+}
+
+function calificar(valor) {
+    // Lógica para procesar y mostrar la calificación del usuario
+}
+
