@@ -1,4 +1,42 @@
-/* Pie de Página */
+/* Estilos adicionales para mejorar el diseño */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para las secciones principales */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#anime {
+    background-color: #FFD700; /* Fondo amarillo para la sección de Anime */
+}
+
+section#juegos {
+    background-color: #87CEEB; /* Fondo azul claro para la sección de Juegos */
+}
+
+section#musica {
+    background-color: #FF6347; /* Fondo rojo coral para la sección de Música */
+}
+
+section#descargas {
+    background-color: #98FB98; /* Fondo verde claro para la sección de Descargas */
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Estilos para el pie de página */
 footer {
     background-color: #444;
     color: #fff;
@@ -16,17 +54,22 @@ footer li {
     margin-right: 10px;
 }
 
-footer a {
+#correo {
     text-decoration: none;
-    color: #fff;
-}
-
-/* Estilos para el enlace de correo electrónico */
-footer a#correo {
-    color: #FFD700; /* Cambia el color a uno que te guste */
+    color: #FFD700;
     font-weight: bold;
 }
 
+/* Estilos para los botones y enlaces de acción */
+button, .boton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-
-/* ... (resto de los estilos) */
+.boton:hover {
+    background-color: #0056b3;
+}
