@@ -1,81 +1,32 @@
-body {
-    background-color: #f7f7f7;
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    background-color: #333;
+/* Pie de Página */
+footer {
+    background-color: #444;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
+footer ul {
+    list-style: none;
     padding: 0;
 }
 
-nav li {
+footer li {
     display: inline;
     margin-right: 10px;
 }
 
-nav a {
+footer a {
     text-decoration: none;
     color: #fff;
+}
+
+/* Estilos para el enlace de correo electrónico */
+footer a#correo {
+    color: #FFD700; /* Cambia el color a uno que te guste */
     font-weight: bold;
 }
 
-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-button {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #207bb5;
-}
 
 
 /* ... (resto de los estilos) */
