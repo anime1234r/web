@@ -1,24 +1,19 @@
-// Puedes empezar con algo básico, como cambiar el color de fondo al hacer clic en un botón.
-document.getElementById('botonCambiarColor').addEventListener('click', function() {
-    document.body.style.backgroundColor = 'pink';
+// script.js
+
+// Ejemplo: Cambiar el texto de un elemento al cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+    var tituloAnime = document.getElementById('anime');
+    if (tituloAnime) {
+        tituloAnime.innerHTML = 'Anime Recomendado';
+    }
 });
-// En JavaScript (script.js)
 
-function abrirLightbox(imagen) {
-    // Lógica para mostrar el lightbox con la imagen seleccionada
-    // Puedes utilizar bibliotecas como Lightbox2 para esto.
+// Ejemplo: Mostrar una alerta al hacer clic en el botón Descargar Ahora
+var botonDescargar = document.getElementById('botonDescargar');
+if (botonDescargar) {
+    botonDescargar.addEventListener('click', function() {
+        alert('¡Descarga iniciada! Disfruta del contenido.');
+    });
 }
 
-function cambiarTema() {
-    // Lógica para cambiar los estilos y colores de la página
-    // según el tema seleccionado
-}
-
-function enviarComentario() {
-    // Lógica para procesar y mostrar comentarios
-}
-
-function calificar(valor) {
-    // Lógica para procesar y mostrar la calificación del usuario
-}
-
+// Puedes agregar más funciones y lógica según tus necesidades
