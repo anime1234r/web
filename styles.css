@@ -85,3 +85,46 @@ button, .boton {
 .boton:hover {
     background-color: #004080; /* Azul más oscuro al pasar el ratón sobre el botón */
 }
+/* Agrega estilos para centrar la sección de desarrollo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.seccionDesarrollo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Ajusta el margen según sea necesario */
+}
+/* Agrega estilos para centrar la sección de desarrollo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.seccionDesarrollo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Ajusta el margen según sea necesario */
+}
+
+.centrar {
+    text-align: center;
+}
+
+/* ... (resto de estilos) ... */
+.centrar {
+    text-align: center;
+}
+
+/* ... (resto de estilos) ... */
