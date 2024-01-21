@@ -1,44 +1,58 @@
-/* Estilos adicionales para mejorar el diseño */
-
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #e6f7ff; /* Azul claro para el fondo */
+    color: #333; /* Texto oscuro para mayor legibilidad */
     margin: 0;
     padding: 0;
 }
 
-/* Estilos para las secciones principales */
+header {
+    background-color: #0056b3; /* Azul oscuro para el encabezado */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #007BFF; /* Azul vibrante para la barra de navegación */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
 section {
     margin: 20px;
     padding: 20px;
+    background-color: #fff; /* Fondo blanco para las secciones */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section#anime {
-    background-color: #FFD700; /* Fondo amarillo para la sección de Anime */
-}
-
-section#juegos {
-    background-color: #87CEEB; /* Fondo azul claro para la sección de Juegos */
-}
-
-section#musica {
-    background-color: #FF6347; /* Fondo rojo coral para la sección de Música */
-}
-
-section#descargas {
-    background-color: #98FB98; /* Fondo verde claro para la sección de Descargas */
-}
-
 section h2 {
-    color: #333;
+    color: #0056b3; /* Azul oscuro para los títulos de secciones */
 }
 
-/* Estilos para el pie de página */
 footer {
-    background-color: #444;
+    background-color: #007BFF; /* Azul vibrante para el pie de página */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -54,15 +68,13 @@ footer li {
     margin-right: 10px;
 }
 
-#correo {
+footer a {
     text-decoration: none;
-    color: #FFD700;
-    font-weight: bold;
+    color: #fff;
 }
 
-/* Estilos para los botones y enlaces de acción */
 button, .boton {
-    background-color: #007BFF;
+    background-color: #0056b3; /* Azul oscuro para los botones */
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -71,5 +83,5 @@ button, .boton {
 }
 
 .boton:hover {
-    background-color: #0056b3;
+    background-color: #004080; /* Azul más oscuro al pasar el ratón sobre el botón */
 }
